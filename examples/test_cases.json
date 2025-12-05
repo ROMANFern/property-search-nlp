@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "query": "3 bedroom house in Richmond under 800k",
+    "truth": {
+      "property_type": "House",
+      "location": "Richmond",
+      "budget": 800000,
+      "budget_type": "max",
+      "bedrooms": 3
+    }
+  },
+  {
+    "id": 2,
+    "query": "apartment with 2 bedrooms near Melbourne CBD max $500k",
+    "truth": {
+      "property_type": "Apartment",
+      "location": "Melbourne CBD",
+      "budget": 500000,
+      "budget_type": "max",
+      "bedrooms": 2
+    }
+  },
+  {
+    "id": 3,
+    "query": "modern unit in South Yarra under 600000 with parking",
+    "truth": {
+      "property_type": "Unit",
+      "location": "South Yarra",
+      "budget": 600000,
+      "budget_type": "max",
+      "parking": 1,
+      "features": ["Modern"]
+    }
+  },
+  {
+    "id": 4,
+    "query": "luxury penthouse Melbourne CBD over 2 million",
+    "truth": {
+      "property_type": "Penthouse",
+      "location": "Melbourne CBD",
+      "budget": 2000000,
+      "budget_type": "min",
+      "features": ["Luxury"]
+    }
+  },
+  {
+    "id": 5,
+    "query": "family home in Hawthorn with pool budget 1.2m",
+    "truth": {
+      "property_type": "House",
+      "location": "Hawthorn",
+      "budget": 1200000,
+      "budget_type": "max",
+      "features": ["Pool", "Family Home"]
+    }
+  },
+  {
+    "id": 6,
+    "query": "4 bed house in Kew 2 baths around $1.5m",
+    "truth": {
+      "property_type": "House",
+      "location": "Kew",
+      "budget": 1500000,
+      "budget_type": "around",
+      "bedrooms": 4,
+      "bathrooms": 2
+    }
+  },
+  {
+    "id": 7,
+    "query": "investment property in Brunswick under 700k",
+    "truth": {
+      "location": "Brunswick",
+      "budget": 700000,
+      "budget_type": "max",
+      "features": ["Investment Property"]
+    }
+  },
+  {
+    "id": 8,
+    "query": "townhouse in Camberwell with 3 bedrooms under $900k",
+    "truth": {
+      "property_type": "Townhouse",
+      "location": "Camberwell",
+      "budget": 900000,
+      "budget_type": "max",
+      "bedrooms": 3
+    }
+  },
+  {
+    "id": 9,
+    "query": "cozy place near city",
+    "truth": {
+      "location": "City"
+    }
+  },
+  {
+    "id": 10,
+    "query": "HOUSE IN RICHMOND",
+    "truth": {
+      "property_type": "House",
+      "location": "Richmond"
+    }
+  }
+]
