@@ -207,7 +207,7 @@ MIT License — free for commercial + personal use.
 
 ## 👤 Author
 
-**[Manusha Fernando]**
+**Manusha Fernando**
 
 * GitHub: [@ROMANFern](https://github.com/ROMANFern)
 * LinkedIn: [Manusha Fernando](https://linkedin.com/in/manusha-fernando)
