@@ -173,9 +173,9 @@ property-search-nlp/
 ## 📈 Performance Snapshot
 
 Rule-based vs LLM comparison (latest run):
-✔ Rule-based correct on **~96%** of labeled fields
-✔ LLM correct on **~92%**, better on complex features
-📉 But ~100x slower and API cost incurred
+  ✔ Rule-based correct on **~96%** of labeled fields
+  ✔ LLM correct on **~92%**, better on complex features
+  📉 But ~100x slower and API cost incurred
 
 From evaluation logs:
 *“Rule-based parser performs extremely well for clear, structured property search queries.”*
