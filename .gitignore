@@ -67,3 +67,8 @@ desktop.ini
 # ------------------------------------------------------------------------------
 .ipynb_checkpoints/
 *.ipynb
+
+setup.py
+debug_llm_setup.py
+htmlcov/
+notebooks/

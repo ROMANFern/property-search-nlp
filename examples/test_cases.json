@@ -102,5 +102,416 @@
       "property_type": "House",
       "location": "Richmond"
     }
+  },
+  {
+    "id": 11,
+    "query": "spacious 4br family home in Kew East with study and double garage under 1.8m",
+    "truth": {
+      "property_type": "House",
+      "location": "Kew East",
+      "budget": 1800000,
+      "budget_type": "max",
+      "bedrooms": 4,
+      "parking": 2,
+      "features": ["Family Home"]
+    }
+  },
+  {
+    "id": 12,
+    "query": "waterfront apartment in St Kilda 2 bed 2 bath parking included budget 750k",
+    "truth": {
+      "property_type": "Apartment",
+      "location": "St Kilda",
+      "budget": 750000,
+      "budget_type": "max",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parking": 1
+    }
+  },
+  {
+    "id": 13,
+    "query": "newly renovated townhouse in Prahran 3 bedrooms modern kitchen around $1.1m",
+    "truth": {
+      "property_type": "Townhouse",
+      "location": "Prahran",
+      "budget": 1100000,
+      "budget_type": "around",
+      "bedrooms": 3,
+      "features": ["Renovated", "Modern"]
+    }
+  },
+  {
+    "id": 14,
+    "query": "something affordable near good schools",
+    "truth": {}
+  },
+  {
+    "id": 15,
+    "query": "cheap place with parking",
+    "truth": {
+      "parking": 1
+    }
+  },
+  {
+    "id": 16,
+    "query": "nice home close to transport",
+    "truth": {
+      "property_type": "House"
+    }
+  },
+  {
+    "id": 17,
+    "query": "property with character in inner suburbs",
+    "truth": {}
+  },
+  {
+    "id": 18,
+    "query": "Richmond 3BR house <800k pool",
+    "truth": {
+      "property_type": "House",
+      "location": "Richmond",
+      "budget": 800000,
+      "budget_type": "max",
+      "bedrooms": 3,
+      "features": ["Pool"]
+    }
+  },
+  {
+    "id": 19,
+    "query": "$600k max apartment CBD parking",
+    "truth": {
+      "property_type": "Apartment",
+      "location": "CBD",
+      "budget": 600000,
+      "budget_type": "max",
+      "parking": 1
+    }
+  },
+  {
+    "id": 20,
+    "query": "2 bedroom, 1 bathroom, Brighton, under $550,000",
+    "truth": {
+      "location": "Brighton",
+      "budget": 550000,
+      "budget_type": "max",
+      "bedrooms": 2,
+      "bathrooms": 1
+    }
+  },
+  {
+    "id": 21,
+    "query": "3 bdrm hse in richmond under 800k",
+    "truth": {
+      "property_type": "House",
+      "location": "Richmond",
+      "budget": 800000,
+      "budget_type": "max",
+      "bedrooms": 3
+    }
+  },
+  {
+    "id": 22,
+    "query": "appartment in melb cbd 2 bed",
+    "truth": {
+      "property_type": "Apartment",
+      "location": "Melb CBD",
+      "bedrooms": 2
+    }
+  },
+  {
+    "id": 23,
+    "query": "house under $1,000,000 in Hawthorn",
+    "truth": {
+      "property_type": "House",
+      "location": "Hawthorn",
+      "budget": 1000000,
+      "budget_type": "max"
+    }
+  },
+  {
+    "id": 24,
+    "query": "over 2.5 million luxury penthouse",
+    "truth": {
+      "property_type": "Penthouse",
+      "budget": 2500000,
+      "budget_type": "min",
+      "features": ["Luxury"]
+    }
+  },
+  {
+    "id": 25,
+    "query": "studio apartment fitzroy max 400k balcony",
+    "truth": {
+      "property_type": "Studio",
+      "location": "Fitzroy",
+      "budget": 400000,
+      "budget_type": "max",
+      "features": ["Balcony"]
+    }
+  },
+  {
+    "id": 26,
+    "query": "2 bed apartment in Docklands under 650k with water views",
+    "truth": {
+      "property_type": "Apartment",
+      "location": "Docklands",
+      "budget": 650000,
+      "budget_type": "max",
+      "bedrooms": 2,
+      "features": ["Water View"]
+    }
+  },
+  {
+    "id": 27,
+    "query": "elwood townhouse 3 bedroom 2 bath near beach over 1.2m",
+    "truth": {
+      "property_type": "Townhouse",
+      "location": "Elwood",
+      "budget": 1200000,
+      "budget_type": "min",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "features": ["Beach Access"]
+    }
+  },
+  {
+    "id": 28,
+    "query": "affordable home in Preston with garage",
+    "truth": {
+      "property_type": "House",
+      "location": "Preston",
+      "parking": 1
+    }
+  },
+  {
+    "id": 29,
+    "query": "luxury 4br house in Toorak around 4 million",
+    "truth": {
+      "property_type": "House",
+      "location": "Toorak",
+      "budget": 4000000,
+      "budget_type": "around",
+      "bedrooms": 4,
+      "features": ["Luxury"]
+    }
+  },
+  {
+    "id": 30,
+    "query": "student studio near Uni in Carlton max $350k",
+    "truth": {
+      "property_type": "Studio",
+      "location": "Carlton",
+      "budget": 350000,
+      "budget_type": "max",
+      "features": ["Student Accommodation"]
+    }
+  },
+  {
+    "id": 31,
+    "query": "new build apartment in Box Hill 1 bed 1 bath max 500k",
+    "truth": {
+      "property_type": "Apartment",
+      "location": "Box Hill",
+      "budget": 500000,
+      "budget_type": "max",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "features": ["New Build"]
+    }
+  },
+  {
+    "id": 32,
+    "query": "modern 3br unit in Glen Iris under 1.1m",
+    "truth": {
+      "property_type": "Unit",
+      "location": "Glen Iris",
+      "budget": 1100000,
+      "budget_type": "max",
+      "bedrooms": 3,
+      "features": ["Modern"]
+    }
+  },
+  {
+    "id": 33,
+    "query": "Clifton Hill family house close to parks",
+    "truth": {
+      "property_type": "House",
+      "location": "Clifton Hill",
+      "features": ["Family Home", "Park Nearby"]
+    }
+  },
+  {
+    "id": 34,
+    "query": "1.5mil or below balcony apartment in Southbank",
+    "truth": {
+      "property_type": "Apartment",
+      "location": "Southbank",
+      "budget": 1500000,
+      "budget_type": "max",
+      "features": ["Balcony"]
+    }
+  },
+  {
+    "id": 35,
+    "query": "cheap st kilda studio",
+    "truth": {
+      "property_type": "Studio",
+      "location": "St Kilda"
+    }
+  },
+  {
+    "id": 36,
+    "query": "near train station 2 bed unit in Bentleigh under 700,000",
+    "truth": {
+      "property_type": "Unit",
+      "location": "Bentleigh",
+      "budget": 700000,
+      "budget_type": "max",
+      "bedrooms": 2,
+      "features": ["Near Transport"]
+    }
+  },
+  {
+    "id": 37,
+    "query": "house 3bed 2bath Carnegie 1.3m ish",
+    "truth": {
+      "property_type": "House",
+      "location": "Carnegie",
+      "budget": 1300000,
+      "budget_type": "around",
+      "bedrooms": 3,
+      "bathrooms": 2
+    }
+  },
+  {
+    "id": 38,
+    "query": "investment apartment Collingwood max 600k",
+    "truth": {
+      "property_type": "Apartment",
+      "location": "Collingwood",
+      "budget": 600000,
+      "budget_type": "max",
+      "features": ["Investment Property"]
+    }
+  },
+  {
+    "id": 39,
+    "query": "penthouse in Docklands over 3.5mil",
+    "truth": {
+      "property_type": "Penthouse",
+      "location": "Docklands",
+      "budget": 3500000,
+      "budget_type": "min"
+    }
+  },
+  {
+    "id": 40,
+    "query": "hawthorn east 4 bedroom not more than 2m",
+    "truth": {
+      "location": "Hawthorn East",
+      "budget": 2000000,
+      "budget_type": "max",
+      "bedrooms": 4
+    }
+  },
+  {
+    "id": 41,
+    "query": "$900k townhouse reservoir",
+    "truth": {
+      "property_type": "Townhouse",
+      "location": "Reservoir",
+      "budget": 900000,
+      "budget_type": "max"
+    }
+  },
+  {
+    "id": 42,
+    "query": "brighton east luxury home",
+    "truth": {
+      "property_type": "House",
+      "location": "Brighton East",
+      "features": ["Luxury"]
+    }
+  },
+  {
+    "id": 43,
+    "query": "2BR apt in Brunswick East with carpark max $720k",
+    "truth": {
+      "property_type": "Apartment",
+      "location": "Brunswick East",
+      "budget": 720000,
+      "budget_type": "max",
+      "bedrooms": 2,
+      "parking": 1
+    }
+  },
+  {
+    "id": 44,
+    "query": "unit with garden in Malvern around 950k",
+    "truth": {
+      "property_type": "Unit",
+      "location": "Malvern",
+      "budget": 950000,
+      "budget_type": "around",
+      "features": ["Garden"]
+    }
+  },
+  {
+    "id": 45,
+    "query": "anything in Fitzroy North under 1m",
+    "truth": {
+      "location": "Fitzroy North",
+      "budget": 1000000,
+      "budget_type": "max"
+    }
+  },
+  {
+    "id": 46,
+    "query": "dog friendly house in Ascot Vale",
+    "truth": {
+      "property_type": "House",
+      "location": "Ascot Vale",
+      "features": ["Pet Friendly"]
+    }
+  },
+  {
+    "id": 47,
+    "query": "studio cbd near uni",
+    "truth": {
+      "property_type": "Studio",
+      "location": "CBD",
+      "features": ["Student Accommodation"]
+    }
+  },
+  {
+    "id": 48,
+    "query": "3 bedroom value property in Footscray",
+    "truth": {
+      "location": "Footscray",
+      "bedrooms": 3
+    }
+  },
+  {
+    "id": 49,
+    "query": "south yarra apartment under 900k pool",
+    "truth": {
+      "property_type": "Apartment",
+      "location": "South Yarra",
+      "budget": 900000,
+      "budget_type": "max",
+      "features": ["Pool"]
+    }
+  },
+  {
+    "id": 50,
+    "query": "new apartment in cbd 1 bed 1 bath balcony",
+    "truth": {
+      "property_type": "Apartment",
+      "location": "CBD",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "features": ["New Build", "Balcony"]
+    }
   }
 ]
